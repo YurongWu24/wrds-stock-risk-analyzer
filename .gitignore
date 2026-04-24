@@ -1,0 +1,15 @@
+.conda/
+.conda_pkgs/
+.conda_cache/
+.pip_cache/
+.tmp/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+data/
+*.csv
+*.parquet
+*.xlsx
+*.sqlite
+
