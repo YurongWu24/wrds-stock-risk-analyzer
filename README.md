@@ -2,6 +2,8 @@
 
 ACC102 Track 4 Interactive Data Analysis Tool
 
+Live app: https://wrds-stock-risk-analyzer-5v43uzefpj44e4ormdx9vg.streamlit.app/
+
 ## Project overview
 
 This project is a local Streamlit app for beginner-level stock risk and return analysis. A user enters a stock ticker, date range, annual risk-free rate, and rolling window. The app connects to WRDS with the user's own WRDS credentials, retrieves CRSP daily stock data, cleans the data, calculates key quantitative indicators, and presents interactive charts.
