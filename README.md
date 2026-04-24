@@ -46,9 +46,6 @@ task4/
     charts.py
   notebooks/
     analysis_workflow.ipynb
-  docs/
-    environment.yml
-    video_script.md
   README.md
   requirements.txt
 ```
