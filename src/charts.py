@@ -6,19 +6,18 @@ import pandas as pd
 import plotly.graph_objects as go
 
 
-COLOR_BG = "#071116"
-COLOR_PANEL = "#0F1B22"
-COLOR_GRID = "#243540"
-COLOR_TEXT = "#E6EDF3"
-COLOR_MUTED = "#9FB1BD"
-COLOR_PRICE = "#38BDF8"
-COLOR_RETURN = "#2DD4BF"
-COLOR_RISK = "#A78BFA"
-COLOR_DRAWDOWN = "#F97316"
-COLOR_UP = "#22C55E"
-COLOR_DOWN = "#EF4444"
-COLOR_AVERAGE = "#FBBF24"
-
+COLOR_BG = "#FFFFFF"
+COLOR_PANEL = "#FFFFFF"
+COLOR_GRID = "#E5E7EB"
+COLOR_TEXT = "#111827"
+COLOR_MUTED = "#4B5563"
+COLOR_PRICE = "#0284C7"
+COLOR_RETURN = "#0F766E"
+COLOR_RISK = "#7C3AED"
+COLOR_DRAWDOWN = "#EA580C"
+COLOR_UP = "#16A34A"
+COLOR_DOWN = "#DC2626"
+COLOR_AVERAGE = "#D97706"
 
 def _apply_layout(fig: go.Figure, y_title: str, height: int = 320) -> go.Figure:
     fig.update_layout(
