@@ -5,7 +5,6 @@ from __future__ import annotations
 import pandas as pd
 import plotly.graph_objects as go
 
-
 COLOR_BG = "#071116"
 COLOR_PANEL = "#0F1B22"
 COLOR_GRID = "#243540"
